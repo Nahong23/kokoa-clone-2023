@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>02_Welcome to KakaoTalk</title>
+    <script
+      src="https://kit.fontawesome.com/c1c5bfb014.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="statusbar">
+      <div class="statusbar__column">
+        <span>No Service</span>
+        <i class="fas fa-solid fa-wifi"></i>
+      </div>
+      <div class="statusbar__column">
+        <span>18:43</span>
+      </div>
+      <div class="statusbar__column">
+        <span>11%</span>
+        <i class="fas fa-solid fa-battery-quarter" id="battery"></i>
+        <i class="fas fa-sharp fa-solid fa-bolt"></i>
+      </div>
+    </div>
+    <div class="contents">
+      <div class="contents__welcome">
+        <span>Welcome to KaKaoTalk</span>
+      </div>
+      <div class="contents__announce">
+        <span>If you have a Kakao Account,</span>
+        <span> log in with your email or phone number.</span>
+      </div>
+      <div class="account__input">
+        <input type="text" id="account" placeholder="Email or phone number" />
+        <input type="password" id="password" placeholder="Password" />
+      </div>
+      <div class="btn">
+        <button id="btn__login">Log In</button>
+        <button id="btn__signup">Sign Up</button>
+        <button id="btn__find">Find Kakao Account or Password</button>
+      </div>
+    </div>
+  </body>
+</html>
