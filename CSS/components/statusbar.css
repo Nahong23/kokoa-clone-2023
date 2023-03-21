@@ -1,0 +1,27 @@
+.statusbar{
+    /* position: fixed; */
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    /* justify-content: space-between; statusbar__column들의 길이가 일정하지 않기 때문에 어긋남, 이거대신 css hack 사용함 */
+    justify-content: center;
+    padding: 5px 3px;
+}
+.statusbar__column{
+    width: 33%;
+}
+.statusbar__column:nth-child(2){
+    display: flex;
+    justify-content: center;
+}
+.statusbar__column:last-child{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.statusbar__column:first-child span{
+    margin-right: 5px;
+}
+.statusbar__column .fa-battery-quarter{
+    margin:0px 5px;
+}
